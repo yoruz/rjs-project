@@ -166,6 +166,7 @@ footer .footer_discl {
 ===============================*/
 
 .featured_wrapper {
+    /* background-image: url("background_image_v22.jpg"); */
     margin: 0 auto;
     width: 1280px;
     margin-top: 90px;
@@ -234,7 +235,7 @@ footer .footer_discl {
 ===============================*/
 
 .home_matches_wrapper {
-    background: #98c5e9;
+    background: #000000;
     margin-top:9px;
     padding: 50px 0px;
 }
@@ -398,23 +399,24 @@ footer .footer_discl {
 ===============================*/
 
 
-.home_meetplayers { 
-    background: #ffffff;
+.home_teams { 
+    background-image: url("maxresdefault.jpg");
+    background-size: cover;
 }
 
-.home_meetplayers_wrapper {
+.home_teams_wrapper {
     padding-bottom: 100px;
     min-height: 600px;
 }
 
-.home_meetplayers .home_card_wrapper {
+.home_teams .home_card_wrapper {
     position: relative;
     float: left;
     width: 630px;
     min-height: 600px;
 }
 
-.home_meetplayers .home_text_wrapper {
+.home_teams .home_text_wrapper {
     float: right;
     width: 390px;
 }
@@ -424,15 +426,15 @@ footer .footer_discl {
 ===============================*/
 
 
-.player_card_wrapper {
+.card_wrapper {
     background: #ffffff;
-    border: 1px solid #ececec;
+    border: 1px solid #474747;
     width: 300px;
     padding: 10px 10px 20px 10px;
     font-family: 'Righteous';
 }
-.player_card_wrapper .player_card_thmb {
-    border: 1px solid #eeeeee;
+.card_wrapper .card_thmb {
+    border: 1px solid #e6e3e3;
     width:100%;
     height:250px;
     background-repeat: no-repeat !important;
@@ -440,22 +442,22 @@ footer .footer_discl {
     background-size: contain !important;
 }
 
-.player_card_wrapper .player_card_nfo {
+.card_wrapper ._card_nfo {
     position: relative;
 }
-.player_card_wrapper .player_card_number {
+.card_wrapper .card_team {
     color: #d6ecfe;
     font-size: 185px;
     text-align: right;
     line-height: 160px;
 }
 
-.player_card_wrapper .player_card_name {
+.card_wrapper .card_name {
     position: absolute;
     bottom: 0px;
 }
 
-.player_card_wrapper .player_card_name span { 
+.card_wrapper .card_name span { 
     display: block;
     font-size: 25px;
     color: #0d1831;
