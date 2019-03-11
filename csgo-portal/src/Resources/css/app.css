@@ -467,67 +467,6 @@ footer .footer_discl {
     margin-top: 70px;
 }
 
-
-/*=============================
-         PROMOTION
-===============================*/
-
-.promotion_wrapper {
-    padding: 30px 0px 130px 0px;
-}
-
-.promotion_wrapper .promotion_animation {
-    display: flex;
-    padding: 80px 0px 30px 0px;
-}
-
-.promotion_wrapper .promotion_animation .left { 
-    text-transform: uppercase;
-    text-transform: uppercase;
-    font-size: 150px;
-    font-family: 'Righteous', cursive;
-    flex-grow: 1;
-    color:#d5ebfd;
-    line-height: 135px;
-}
-.promotion_wrapper .promotion_animation .left span {
-    display:block;
- }
-
-.promotion_wrapper .promotion_animation .right {
-    line-height: 135px;
-}
-
-.promotion_wrapper .promotion_animation .right div{
-    width: 280px;
-    height: 280px;
-    background-size: contain !important;
-}
-
-.promotion_wrapper .enroll_wrapper {
-    text-align: center;
-}
-
-.promotion_wrapper .enroll_title {
-    font-family: 'Righteous', cursive;
-    font-size: 26px;
-    color: #4e4e4e;
-}
-
-.promotion_wrapper .enroll_discl {
-    font-weight: 300;
-    font-size: 12px;
-    width: 271px;
-    margin: 0 auto;
-    padding: 10px 0px;
-}
-
-.promotion_wrapper .enroll_input {
-    width: 330px;
-    margin: 0 auto;
-    padding: 10px 0px;
-}
-
 /*=============================
          THE MATCHES
 ===============================*/
@@ -668,6 +607,10 @@ footer .footer_discl {
 ===============================*/
 
 .signin_wrapper {
+    background-image: url("log_in_background_v2.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     margin-top: 96px;
     padding: 20px;
     min-height: 70VH;
@@ -686,14 +629,14 @@ footer .footer_discl {
 
 .signin_wrapper h2 {
     font-family: 'Righteous', cursive;
-    color: #98c6e9;
+    color: #242424;
     font-size: 50px;
 }
 
 .user_dashboard {
     font-size: 60px;
     font-family: 'Righteous', cursive;
-    color: #d5ebfe;
+    color: #000000;
     text-align: center;
     margin-top: 200px;
 }

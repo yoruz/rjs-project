@@ -14,11 +14,15 @@ export const CsLogo = (props) => {
         }}
     ></div>
 
-
-    return (
-        <Link to={props.linkTo} className="link_logo">
-            {template}
-        </Link>
-    )
+    if(props.link){
+        return (
+            <Link to={props.linkTo} className="link_logo">
+                {template}
+            </Link>
+        )
+    } else {
+        return template;
+    }
+    
 
 }

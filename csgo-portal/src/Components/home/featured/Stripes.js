@@ -50,7 +50,7 @@ class Stripes extends Component {
                     left:[stripe.left],
                     rotate:[stripe.rotate],
                     top:[stripe.top],
-                    timing: {delay:stripe.delay, duration: 200, ease: easePolyOut },
+                    timing: {delay:stripe.delay, duration: 700, ease: easePolyOut },
                     
                 }}
 
