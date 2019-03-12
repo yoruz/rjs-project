@@ -34,7 +34,7 @@ class Blocks extends Component {
                     </div>
                 </Slide>
             ))
-            : null
+            : ''
     )
 
     render() {

@@ -11,7 +11,7 @@ const MatchesBlock = ({ match }) => {
             <div className="match_wrapper">
                 <div className="match_top">
                     <div className="left">
-                        <div className="icon" style={{ background: `url(/images/team_icons/${match.firstTeamThmb}.ico)` }}>
+                        <div className="icon" style={{ background: `url(/images/team_icons/${match.firstTeam}.ico)` }}>
                         </div>
                         <div className="team_name">
                             {match.firstTeam}
@@ -23,7 +23,7 @@ const MatchesBlock = ({ match }) => {
                 </div>
                 <div className="match_bottom">
                     <div className="left">
-                        <div className="icon" style={{ background: `url(/images/team_icons/${match.secondTeamThmb}.ico)` }}>
+                        <div className="icon" style={{ background: `url(/images/team_icons/${match.secondTeam}.ico)` }}>
                         </div>
                         <div className="team_name">
                             {match.secondTeam}
