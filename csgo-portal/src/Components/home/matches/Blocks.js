@@ -30,6 +30,7 @@ class Blocks extends Component {
                     <div className="item">
                         <div className="wrapper">
                             <MatchesBlock match={match} />
+                            {console.log(match.firstTeam)}
                         </div>
                     </div>
                 </Slide>

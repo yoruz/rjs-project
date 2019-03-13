@@ -1,12 +1,12 @@
 import React from 'react';
+import { firebase } from '../../firebase';
 
 const MatchesBlock = ({ match }) => {
-
 
     return (
         <div className="match_block">
             <div className="match_date">
-                {match.final ? match.date : `Match not played yet: ${match.date}`}
+                {match.final !== "No" ? match.date : `Match not played yet: ${match.date}`}
             </div>
             <div className="match_wrapper">
                 <div className="match_top">
