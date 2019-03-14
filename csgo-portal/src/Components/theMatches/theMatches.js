@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import CircularProgress from '@material-ui/core/CircularProgress';
 
-import { dbMatches, dbTeams, firebase } from '../../firebase';
+import { dbMatches } from '../../firebase';
 import { dbLooper, reverseArray } from '../ui/misc';
 
 import MatchesList from './matchesList';

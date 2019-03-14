@@ -312,7 +312,7 @@ footer .footer_discl {
 
 .match_box_big {
     width:100%;
-    border-bottom: 2px solid #98c6e9;
+    border-bottom: 2px solid #070707;
     padding: 20px;
     box-sizing: border-box;
     height: 143px;
@@ -348,7 +348,7 @@ footer .footer_discl {
 }
 
 .block_wrapper.nfo {
-    border-left: 1px solid #98c6e9;
+    border-left: 1px solid #0f0f0f;
     height: 102px;
     padding-left: 10px;
     font-weight: 300;
@@ -361,16 +361,17 @@ footer .footer_discl {
 
 .match_filters {
      display: flex;
-     border-bottom: 1px solid #01285e;
-     background: #dff1ff;
+     border-bottom: 1px solid #000000;
+     background: #868686;
 }
 .match_filters .tag {
     font-weight: 300;
     margin-bottom: 5px;
-    color: #656565;
+    color: #000000;
 }
 .match_filters .option {
-    background: #ffffff;
+    background: #141414;
+    color: #fff;
     padding: 5px 9px;
     border-radius: 3px;
     font-size: 13px;
@@ -379,14 +380,14 @@ footer .footer_discl {
 }
 
 .match_filters .option.active {
-    background: #62a2d3;
-    color: #fff;
+    background: #ebdc13;
+    color: rgb(0, 0, 0);
 }
 
 .match_filters_box {
     padding: 10px 20px;
-    border-right: 1px solid #01285e;
-    background: #dff1ff;
+    border-right: 1px solid #000000;
+    background: #868686;
 }
 
 .match_filters .cont {
