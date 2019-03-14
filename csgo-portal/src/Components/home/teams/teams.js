@@ -48,7 +48,7 @@ class Teams extends Component {
                                         size="27px"
                                         color="#000000"
                                         link={true}
-                                        linkTo="/teams"
+                                        linkTo="/the_teams"
                                         add={{
                                             display: 'inline-block',
                                             marginBottom: '20px',

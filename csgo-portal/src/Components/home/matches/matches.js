@@ -21,7 +21,7 @@ const MatchesHome = () => {
                     size="22px"
                     color="#000000"
                     link={true}
-                    linkTo="/matches"
+                    linkTo="/the_matches"
                 >
                     See more matches
                 </Tag>

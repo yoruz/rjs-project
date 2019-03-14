@@ -137,7 +137,7 @@ button {
     text-align: center;
     font-size: 90px;
     font-family: 'Righteous', cursive;
-    color: #d5ebfe;
+    color: #272727;
 }
 
 
@@ -319,7 +319,7 @@ footer .footer_discl {
     clear: both;
 }
 
-.match_box_big .block_wraper {
+.match_box_big .block_wrapper {
     display: inline-block;
     margin-right: 50px;
     float: left;
@@ -347,7 +347,7 @@ footer .footer_discl {
     font-weight: 500;
 }
 
-.block_wraper.nfo {
+.block_wrapper.nfo {
     border-left: 1px solid #98c6e9;
     height: 102px;
     padding-left: 10px;
@@ -355,7 +355,7 @@ footer .footer_discl {
     color: #5e5e5e;
 }
 
-.block_wraper.nfo div {
+.block_wrapper.nfo div {
     margin: 5px 0px;
 }
 
@@ -445,13 +445,13 @@ footer .footer_discl {
 .card_wrapper ._card_nfo {
     position: relative;
 }
-.card_wrapper .card_team {
-    color: #d6ecfe;
-    font-size: 185px;
-    text-align: right;
-    line-height: 160px;
-}
 
+.card_wrapper .card_location {
+    color: #333333;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+}
 .card_wrapper .card_name {
     position: absolute;
     bottom: 0px;
@@ -466,6 +466,8 @@ footer .footer_discl {
 .home_text_wrapper {
     margin-top: 70px;
 }
+
+
 
 /*=============================
          THE MATCHES
@@ -579,25 +581,25 @@ footer .footer_discl {
          THE TEAM
 ===============================*/
 
-.the_team_container {
+.the_teams_container {
     margin-top: 96px;
     padding: 20px;
     background-size: 5px 5px !important;
     min-height:100vh;
 }
 
-.team_category_wrapper .title {
+.teams_region_wrapper .title {
     font-size: 90px;
     margin: 30px 0px;
     font-family: 'Righteous', cursive;
-    color: #d5ebfe;
+    color: #474747;
 }
 
-.team_category_wrapper .team_cards {
+.teams_region_wrapper .team_cards {
     display: flex;
     flex-wrap: wrap;
 }
-.team_category_wrapper .team_cards .item{
+.teams_region_wrapper .team_cards .item{
     margin-right: 20px;
     margin-bottom: 20px;
 }

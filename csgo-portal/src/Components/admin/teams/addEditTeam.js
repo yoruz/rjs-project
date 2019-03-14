@@ -3,7 +3,6 @@ import AdminLayout from '../../Hoc/AdminLayout';
 
 import FormField from '../../ui/formFields';
 import { validate } from '../../ui/misc';
-import CircularProgress from '@material-ui/core/CircularProgress';
 
 import Fileuploader from '../../ui/fileuploader';
 import { dbTeams, database, firebase } from '../../../firebase';
