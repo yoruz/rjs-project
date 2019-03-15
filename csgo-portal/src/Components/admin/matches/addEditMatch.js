@@ -222,15 +222,6 @@ class AddEditMatch extends Component {
             formIsValid = this.state.formdata[key].valid && formIsValid;
         }
 
-        // this.state.teams.forEach((team)=>{
-        //     if(team.name === dataToSubmit.firstTeam){
-        //         dataToSubmit['firstTeamThmb'] = team.thmb;
-        //     }
-        //     if(team.name === dataToSubmit.secondTeam){
-        //         dataToSubmit['secondTeamThmb'] = team.thmb;
-        //     }
-        // })
-
         if (formIsValid) {
             if(this.state.formType === 'Edit Match'){
                 database.ref(`matches/${this.state.matchId}`)
