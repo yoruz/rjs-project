@@ -59,10 +59,18 @@ class MatchesList extends Component {
                             >
                                 <div className="block_wrapper">
                                     <div className="block">
+                                        <div
+                                            className="icon"
+                                            style={{ background: `url(/images/team_icons/${data.firstTeam}.ico)` }}>
+                                        </div>
                                         <div className="team">{data.firstTeam}</div>
                                         <div className="result">{data.resultFirstTeam}</div>
                                     </div>
                                     <div className="block">
+                                        <div
+                                            className="icon"
+                                            style={{ background: `url(/images/team_icons/${data.secondTeam}.ico)` }}>
+                                        </div>
                                         <div className="team">{data.secondTeam}</div>
                                         <div className="result">{data.resultSecondTeam}</div>
                                     </div>

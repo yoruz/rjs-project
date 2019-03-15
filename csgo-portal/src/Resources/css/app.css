@@ -140,11 +140,6 @@ button {
     color: #272727;
 }
 
-
-/*=============================
-            HEADER FOOTER
-===============================*/
-
 footer {
     text-align: center;
     font-size: 16px;
@@ -159,11 +154,6 @@ footer .img_cover{
 footer .footer_discl {
     margin: 10px 0px;
 }
-
-
-/*=============================
-            FEATURED
-===============================*/
 
 .featured_wrapper {
     /* background-image: url("background_image_v22.jpg"); */
@@ -230,10 +220,6 @@ footer .footer_discl {
     text-shadow:rgb(100, 100, 100) 0px 0px 1px, rgb(100, 100, 100) 0px 0px 1px, rgb(100, 100, 100) 0px 0px 1px;
 }
 
-/*=============================
-            MATCHES HOME
-===============================*/
-
 .home_matches_wrapper {
     background: #000000;
     margin-top:9px;
@@ -254,11 +240,6 @@ footer .footer_discl {
 .home_matches_wrapper .home_matches .item .wrapper {
     padding-right:30px;
 }
-
-
-/*=============================
-            MATCHES BLOCK
-===============================*/
 
 .match_block .match_date{
     color:#ffffff;
@@ -394,12 +375,6 @@ footer .footer_discl {
     display: flex;
 }
 
-
-/*=============================
-            MATCHES BLOCK
-===============================*/
-
-
 .home_teams { 
     background-image: url("maxresdefault.jpg");
     background-size: cover;
@@ -422,11 +397,6 @@ footer .footer_discl {
     width: 390px;
 }
 
-/*=============================
-            MATCHES BLOCK
-===============================*/
-
-
 .card_wrapper {
     background: #ffffff;
     border: 1px solid #474747;
@@ -443,7 +413,7 @@ footer .footer_discl {
     background-size: contain !important;
 }
 
-.card_wrapper ._card_nfo {
+.card_wrapper .card_nfo {
     position: relative;
 }
 
@@ -468,50 +438,23 @@ footer .footer_discl {
     margin-top: 70px;
 }
 
-
-
-/*=============================
-         THE MATCHES
-===============================*/
-
 .the_matches_container {
     margin-top: 96px;
 }
 
 .the_matches_wrapper {
     display: flex;
+    min-height: 600px;
 }
 
 .the_matches_wrapper .left {
     flex-grow: 1;
 }
 
-.the_matches_wrapper .right {
-   width:400px;
-}
-
-.league_table_wrapper {
-    border-left: 1px solid #98c6e9;
-}
-.league_table_wrapper .title {
-    padding: 22px;
-    font-size: 22px;
-    color: #ffffff;
-    background: #98c6e9;
-    border-bottom: 1px solid #01285e;
-}
-
 .the_matches_wrapper .progress {
     text-align: center;
     padding: 60px 0px;
 }
-
-
-
-
-/*=============================
-         ADMIN
-===============================*/
 
 .admin_container {
     margin-top: 96px;
@@ -578,10 +521,6 @@ footer .footer_discl {
     background: #000000;
 }
 
-/*=============================
-         THE TEAM
-===============================*/
-
 .the_teams_container {
     margin-top: 96px;
     padding: 20px;
@@ -604,10 +543,6 @@ footer .footer_discl {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-/*=============================
-            SIGN IN
-===============================*/
 
 .signin_wrapper {
     background-image: url("log_in_background_v2.png");
