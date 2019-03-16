@@ -111,7 +111,7 @@ class AddEditTeam extends Component {
                     firebase.storage().ref('teams')
                         .child(teamData.image).getDownloadURL()
                         .then(url => {
-                            this.updateFields(teamData, teamId, 'Edit player', url);
+                            this.updateFields(teamData, teamId, 'Edit team', url);
                         });
                 });
         }
@@ -163,7 +163,7 @@ class AddEditTeam extends Component {
         }
 
         if (formIsValid) {
-            if (this.state.formType === 'Edit player') {
+            if (this.state.formType === 'Edit team') {
                 database.ref(`teams/${this.state.teamId}`)
                     .update(dataToSubmit)
                     .then(() => {
