@@ -22,14 +22,13 @@ class MatchesList extends Component {
             <NodeGroup
                 data={this.state.matcheslist}
                 keyAccessor={(d) => d.id}
-                logo={(lg) => lg.url}
 
                 start={() => ({
                     opacity: 0,
                     x: -200
                 })}
 
-                enter={(d, i, lg) => ({
+                enter={(d, i) => ({
                     opacity: [1],
                     x: [0],
                     timing: { duration: 800, delay: i * 50, ease: easePolyOut }

@@ -35,8 +35,8 @@ class TheMatches extends Component{
             filterMatches: played === 'All' 
             ? 
             this.state.matches
-            : list,
-
+            : 
+            list,
             matchFilter: played
         })
     }
@@ -50,7 +50,7 @@ class TheMatches extends Component{
                         <div className="match_filters">
                             <div className="match_filters_box">
                                 <div className="tag">
-                                    Show Match
+                                    Show Matches
                                 </div>
                                 <div className="cont">
                                     <div className={`option ${state.matchFilter === 'All'?'active':''}`}
